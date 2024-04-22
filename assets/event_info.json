@@ -1,0 +1,26 @@
+{
+    "title": "Flutter forward",
+    "startsAt": "2024-05-01T09:00:00.000",
+    "sessions": [
+        {
+            "id": "whats-new-in-flutter",
+            "color": "0xFF42A5F5",
+            "title": "What's new in Flutter",
+            "dateTimeFrom": "2024-05-01T09:00:00.000-08:00",
+            "dateTimeTo": "2024-05-01T10:00:00.000-08:00",
+            "speakers": [
+                "John Doe"
+            ]
+        },
+        {
+            "id": "how-to-get-a-free-dash",
+            "color": "0xFF9D6BCE",
+            "title": "How to get a free dash",
+            "dateTimeFrom": "2024-05-01T11:00:00.000-08:00",
+            "dateTimeTo": "2024-05-01T12:00:00.000-08:00",
+            "speakers": [
+                "Alex Boom"
+            ]
+        }
+    ]
+}

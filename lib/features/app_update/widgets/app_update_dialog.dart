@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_firebase_remote_config_demo/features/event/view/event_page.dart';
+import 'package:flutter_firebase_remote_config_demo/util/url_launcher.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-
-import '../../../util/url_launcher.dart';
-import '../../event/view/event_page.dart';
 
 void showAppUpdateDialog(
   BuildContext context, {
@@ -31,7 +30,9 @@ class _AppUpdateDialog extends ConsumerWidget {
       actions: [
         if (optional)
           TextButton(
-            onPressed: () => context.replace(EventPage.path),
+            onPressed: () {
+              context.go(EventPage.path);
+            },
             child: const Text('Skip'),
           ),
         TextButton(
